@@ -9,7 +9,7 @@ cls
 
 echo.
 echo ==========================================
-echo             ZTN Verification
+echo             ZTN Verification 1.0.1
 echo ==========================================
 echo.
 echo Connecting to verification server...
