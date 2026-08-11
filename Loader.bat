@@ -8,7 +8,7 @@ REM CONFIG
 REM ============================================================
 
 set "API=https://ztn-verify-production.up.railway.app"
-set "VERSION=1.0"
+set "VERSION=1.1"
 
 REM ============================================================
 REM UPDATE CHECK
