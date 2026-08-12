@@ -15,8 +15,11 @@ echo.
 echo Connecting to verification server...
 echo.
 
+
 REM ==========================================
+
 REM CREATE VERIFICATION ID
+
 REM ==========================================
 
 powershell -NoProfile -Command ^
@@ -42,15 +45,18 @@ if "!ID!"=="" (
     exit /b
 )
 
+
 REM ==========================================
+
 REM SHOW VERIFICATION ID
+
 REM ==========================================
 
 cls
 
 echo.
 echo ==========================================
-echo             ZTN Verification
+echo             ZTN Verification 1.0.1
 echo ==========================================
 echo.
 echo Your verification ID is:
@@ -68,8 +74,11 @@ echo.
 echo Waiting for verification...
 echo.
 
+
 REM ==========================================
+
 REM CHECK VERIFICATION
+
 REM ==========================================
 
 :CHECK
@@ -83,8 +92,11 @@ if !errorlevel! EQU 0 goto VERIFIED
 
 goto CHECK
 
+
 REM ==========================================
-REM VERIFIED
+
+REM VERIFIED 1.0.1
+
 REM ==========================================
 
 :VERIFIED
